@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">名单比对器</string>
+    <string name="title_activity_item_student">ItemStudentActivity</string>
+    <string name="title_activity_record">RecordActivity</string>
+    <string name="title_activity_upgrade">UpgradeActivity</string>
+    <string name="title_activity_record_show">RecordShowActivity</string>
+
+</resources>

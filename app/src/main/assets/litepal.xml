@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="CompareApp"></dbname>
+    <version value="1"></version>
+
+    <list>
+        <mapping class="com.mcc.compare.bean.StaticGrade"></mapping>
+        <mapping class="com.mcc.compare.bean.RecordMarks"></mapping>
+        <mapping class="com.mcc.compare.bean.StudentStatic"></mapping>
+        <mapping class="com.mcc.compare.bean.StudentRecord"></mapping>
+    </list>
+</litepal>

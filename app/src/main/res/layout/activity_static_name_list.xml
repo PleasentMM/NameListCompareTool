@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.StaticNameListActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/static_nameList_toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:title="班级名单"
+        app:titleTextColor="@color/colorWhite"
+        app:navigationIcon="@drawable/ic_back_white_24dp">
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:text="点击名字查看详细信息,长按名字进行删除"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/static_nameList_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
